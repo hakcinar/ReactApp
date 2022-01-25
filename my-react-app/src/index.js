@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import Car from './Car';
-import Garage from './Garage';
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
+import Football from "./Football";
+//import Car from './Car';
+import Garage from "./Garage";
 
 /*function Car(props) {
   return <div>
@@ -14,7 +15,6 @@ import Garage from './Garage';
     <Car />
   </>;
 }*/
-
 
 /*const myfirstelement = <h1>Hello World!</h1>
 const myelement =(
@@ -31,8 +31,4 @@ const myelement =(
   </div>
  
 );*/
-ReactDOM.render(
-  <Garage />,document.getElementById('root')
-);
-
-
+ReactDOM.render(<Football />, document.getElementById("root"));
