@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import Football from "./Football";
 //import Car from './Car';
 import Garage from "./Garage";
+import Input from "./Input";
 
 /*function Car(props) {
   return <div>
@@ -31,4 +32,4 @@ const myelement =(
   </div>
  
 );*/
-ReactDOM.render(<Football />, document.getElementById("root"));
+ReactDOM.render(<Input/>, document.getElementById("root"));

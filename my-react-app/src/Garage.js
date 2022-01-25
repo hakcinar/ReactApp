@@ -2,11 +2,13 @@ import React from "react";
 import Car from "./Car";
 
 export default function Garage() {
-  const carInfo = { name: "Ford", model: "Mustang" };
+  const cars = [{id:1,name:"Ford"},{id:2,name:"Bmw"},{id:3,name:"Toros"}];
   return (
-    <div>
+    <>
       <h1>Who lives in my garage?</h1>
-      <Car brand={carInfo} />
-    </div>
+      {cars.map((car) => (
+        <Car brand={car.id} name={car.name} />
+      ))}
+    </>
   );
 }
